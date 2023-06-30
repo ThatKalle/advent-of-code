@@ -1,7 +1,5 @@
-# --- Day 1: Not Quite Lisp --- --- Part Two ---
-
-# Read in input from AOC
 $aocInput = Get-Content -Path "input.txt"
+#$aocInput = Get-Content -Path "sample.txt"
 
 $CurrentFloor = 0
 $position = 1

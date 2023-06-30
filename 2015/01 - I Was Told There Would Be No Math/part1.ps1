@@ -1,7 +1,5 @@
-# --- Day 2: I Was Told There Would Be No Math ---
-
-# Read in input from AOC
 $aocInput = Get-Content -Path "input.txt"
+#$aocInput = Get-Content -Path "sample.txt"
 
 $result = 0
 $aocInput | ForEach-Object {

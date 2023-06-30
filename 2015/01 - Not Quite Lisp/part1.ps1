@@ -1,7 +1,5 @@
-# --- Day 1: Not Quite Lisp ---
-
-# Read in input from AOC
 $aocInput = Get-Content -Path "input.txt"
+#$aocInput = Get-Content -Path "sample.txt"
 
 $SortedGroup = $aocInput.ToCharArray() | Group-Object | Sort-Object -Descending -Property Count
 
