@@ -1,2 +1,5 @@
 # Advent of Code Puzzle input
 input.txt
+
+# local tests
+*.test.*
